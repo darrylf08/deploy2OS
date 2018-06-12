@@ -26,10 +26,9 @@ resource "openstack_compute_instance_v2" "LinuxVM" {
   flavor_name = "${var.openstack_flavor_name}"
   key_pair  = "${var.openstack_keypair_name}"
   network {
-    name = "Public_Service" 
+    name = "network1" 
     }
-  availability_zone = "manage-az"
-  security_groups = ["67854e08-d7ba-42f0-b253-5b81d92c6a2b"]
+  security_groups = ["default"]
 }
 #
 
