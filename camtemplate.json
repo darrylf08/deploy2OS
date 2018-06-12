@@ -1,5 +1,5 @@
 {
-   "name": "osdeploy",
+   "name": "deploy2OS",
    "description": "Deploy Single Instance to OpenStack.",
    "type": "userCreated",
    "manifest": {
@@ -8,7 +8,7 @@
      "template_provider": "OpenStack"
    },
    "metadata": {
-     "displayName": "osdeploy",
+     "displayName": "Depoloy2OS",
      "bullets": []
    }
  }
